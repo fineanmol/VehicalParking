@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">VehicalParkingInf</string>
+    <string name="str_name">Name</string>
+    <string name="str_mobile_number">Mobile Number</string>
+    <string name="str_vehicle_type">Vehicle Type</string>
+    <string name="str_vehicle_number">Vehicle Number</string>
+    <string name="str_vehicle_photo">Vehicle Photo</string>
+    <string name="str_vehicle_img_view">Vehicle Images View</string>
+    <string name="str_browse">Browse</string>
+    <string name="str_submit">Submit</string>
+    <string name="str_date">Date</string>
+    <string name="str_block">Block</string>
+    <string name="str_floor">Floor</string>
+    <string name="str_slot">Slot</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="vehical_type_array">
+        <item>---Select---</item>
+        <item>Two Wheeler</item>
+        <item>Four Wheeler</item>
+    </string-array>
+    <string-array name="floor_array">
+        <item>---Select---</item>
+        <item>Floor 1</item>
+        <item>Floor 2</item>
+        <item>Floor 3</item>
+        <item>Floor 4</item>
+    </string-array>
+    <string-array name="slot_array">
+        <item>---Select---</item>
+        <item>S1</item>
+        <item>S2</item>
+        <item>S3</item>
+        <item>S4</item>
+        <item>S5</item>
+        <item>S6</item>
+    </string-array>
+
+    <string name="title_activity_slot_conformation">SlotConformation</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_slot_selection">SlotSelection</string>
+
+</resources>

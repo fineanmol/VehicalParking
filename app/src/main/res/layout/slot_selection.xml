@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/slot_floor_txt_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Floor"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="5dp"
+        android:background="@android:color/darker_gray"
+        android:padding="5dp" />
+
+    <RadioGroup
+        android:id="@+id/toggleGroup100"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/slot_btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/round_corners"
+            android:onClick="onToggle"
+            android:text="S1" />
+
+        <Button
+            android:id="@+id/slot_btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/round_corners"
+            android:onClick="onToggle"
+            android:text="S2" />
+
+        <Button
+            android:id="@+id/slot_btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/round_corners"
+            android:onClick="onToggle"
+            android:text="S3" />
+
+        <Button
+            android:id="@+id/slot_btn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/round_corners"
+            android:onClick="onToggle"
+            android:text="S4" />
+
+        <Button
+            android:id="@+id/slot_btn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/round_corners"
+            android:onClick="onToggle"
+            android:text="S5" />
+
+        <Button
+            android:id="@+id/slot_btn6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/round_corners"
+            android:onClick="onToggle"
+            android:text="S6" />
+
+        <Button
+            android:id="@+id/slot_btn7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/round_corners"
+            android:onClick="onToggle"
+            android:text="S7" />
+    </RadioGroup>
+</LinearLayout>

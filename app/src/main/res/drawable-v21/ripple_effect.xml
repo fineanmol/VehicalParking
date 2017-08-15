@@ -1,0 +1,6 @@
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:targetApi="LOLLIPOP"
+    android:color="@color/blue">
+    <item android:drawable="@drawable/round_corner" />
+</ripple>
